@@ -1,0 +1,88 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+/* Body */
+body {
+    background-color: #413d3d;
+    margin: 0;
+    font-family: 'Tilt Neon', cursive;
+    color: white;
+}
+
+.header {
+    background-color: rgb(31, 28, 28);
+    color: #df8032;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1 {
+    position: absolute;
+    left: 45%;
+    right: 65%;
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.selectMenu ul li,
+ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    transition: 0.5s;
+    text-align: center;
+    display: inline-block;
+    margin: 0.2rem;
+}
+
+a:hover {
+    color: #df8032;
+    text-decoration: underline;
+}
+
+.colorOrange {
+    color: #df8032;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.test {
+    margin-left: 6px;
+}
+
+.feature {
+    background-color: #262424;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.contactInfo {
+    background-color: #262424;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.footer {
+    background-color: #262424;
+    padding: 1px;
+}
+
+.mainPage {
+    background-color: #312e2e;
+    border-radius: 25px;
+    padding: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
