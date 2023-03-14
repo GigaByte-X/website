@@ -3,14 +3,14 @@
 
 /* Body */
 body {
-    background-color: #413d3d;
+    background: #1E1E1E;
     margin: 0;
     font-family: 'Tilt Neon', cursive;
     color: white;
 }
 
 .header {
-    background-color: rgb(31, 28, 28);
+    background: #272424;
     color: #df8032;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -23,10 +23,15 @@ body {
 
 .img1 {
     position: absolute;
-    left: 45%;
-    right: 65%;
+    left: 1%;
+    right: 99%;
     max-width: 125px;
     max-height: 125px;
+}
+
+.mainTitle {
+    position: relative;
+    left: 5%;
 }
 
 .selectMenu ul li,
@@ -54,16 +59,53 @@ a:hover {
     justify-content: center;
 }
 
-.test {
-    margin-left: 6px;
+.smallerImg {
+    max-width: 175px;
+    max-height: 175px;
 }
 
-.feature {
-    background-color: #262424;
-    border-radius: 25px;
-    padding: 1rem;
-    margin-left: 25%;
-    margin-right: 25%;
+.test {
+    margin-left: 8px;
+}
+
+.feature1 {
+    display: flexbox;
+    justify-content: center;
+    background-color: #252323;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.feature2 {
+    display: flexbox;
+    justify-content: center;
+    background-color: #252323;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.feature3 {
+    display: flexbox;
+    justify-content: center;
+    background-color: #252323;
+    border-radius: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.mainHr {
+    margin: 1.5rem;
+    border-color: #555252;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
 }
 
 .contactInfo {
@@ -72,6 +114,7 @@ a:hover {
     padding: 1rem;
     margin-left: 25%;
     margin-right: 25%;
+    z-index: 2;
 }
 
 .footer {
@@ -85,4 +128,88 @@ a:hover {
     padding: 1rem;
     margin-left: 20%;
     margin-right: 20%;
+}
+
+.marginMain {
+    padding-top: 5rem;
+}
+
+.circleRight {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1353px;
+    height: 1297px;
+    left: 1516px;
+    top: 1454px;
+
+    border: 5px dashed #929292;
+}
+
+.welcomeText {
+    position: absolute;
+    width: 940px;
+    height: 105px;
+    left: 490px;
+    top: 273px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 105px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 5px 0px rgba(233, 137, 48, 0.25);
+}
+
+.contactButton {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: orange;
+    border-radius: 100px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.contactButton a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.textSpaced {
+    margin-right: 1rem;
+}
+
+.feature1txt {
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.contactBox {
+    background-color: #272424;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 20rem;
+    margin-left: 20rem;
+}
+
+.ellipse2 {
+    position: absolute;
+    right: 1%;
+    top: 50%;
+    max-width: 250px;
+}
+
+.ellipse1 {
+    position: absolute;
+    left: 1%;
+    top: 15%;
+    max-width: 300px;
 }
